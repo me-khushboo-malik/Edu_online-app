@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 """# **Import Dataset**"""
 
-df = "/content/EduPro Online Platform.xlsx"
+df = "data/EduPro Online Platform.xlsx"
 users = pd.read_excel(df, sheet_name='Users')
 courses = pd.read_excel(df, sheet_name='Courses')
 transactions = pd.read_excel(df, sheet_name='Transactions')
